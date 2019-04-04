@@ -8,3 +8,7 @@ body {
 .post * {
   margin: 0;
 }
+
+.post .image {
+  width: 100%;
+}
