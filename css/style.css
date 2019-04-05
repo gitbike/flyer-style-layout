@@ -24,8 +24,9 @@ body {
 /* グリッド */
 
 .post {
+  --side: 20px;
   display: grid;
-  grid-template-columns: 20px 1fr 50px 1fr 20px;
+  grid-template-columns: var(--side) 1fr 50px 1fr var(--side);
   grid-template-rows: auto 30px auto 40px auto 30px auto;
 }
 
@@ -178,7 +179,7 @@ body {
   grid-row: 1;
   align-self: end;
   content: '';
-  margin: 0 -20px;
+  margin: 0 calc(var(--side) * -1);
   margin-bottom: -4px;
   border-top: solid 4px #222;
   height: 2px;
