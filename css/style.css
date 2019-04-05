@@ -4,3 +4,19 @@ body {
   margin: 0;
   font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
 }
+
+.post * {
+  margin: 0;
+}
+
+.post .image {
+  width: 100%;
+}
+
+.post-series .image {
+  max-width: 30px;
+}
+
+.shop .image {
+  max-width: 100px;
+}
