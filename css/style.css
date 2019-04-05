@@ -75,6 +75,7 @@ body {
   justify-items: center;
   align-items: center;
   align-content: center;
+  grid-row-gap: 8px;
 }
 
 /* ヘッダー: 日付 */
