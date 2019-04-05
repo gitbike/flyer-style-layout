@@ -72,6 +72,8 @@ body {
 /* ヘッダー: メニューの基本設定 */
 .post-head ul,
 .post-head ol {
+  display: grid;
+  grid-auto-flow: column;
   margin: 0;
   padding: 0;
   list-style: none;
