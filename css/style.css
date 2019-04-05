@@ -34,6 +34,11 @@ body {
 .post-head {
   grid-column: 2 / -2;
   grid-row: 1;
+
+  /* ヘッダーのグリッド */
+  display: grid;
+  grid-template-columns: 75px 1fr 140px;
+  grid-template-rows: 45px repeat(3, auto);
 }
 
 /* セクション01 */
