@@ -107,6 +107,10 @@ body {
   grid-row: 2;
 }
 
+.post-head .post-category ul {
+  grid-column-gap: 5px;
+}
+
 /* ヘッダー: SNSメニュー */
 .post-head .post-sns {
   grid-column: 3;
