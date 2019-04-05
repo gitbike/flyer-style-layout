@@ -74,6 +74,7 @@ body {
 .post-head ol {
   display: grid;
   grid-auto-flow: column;
+  justify-content: start;
   margin: 0;
   padding: 0;
   list-style: none;
