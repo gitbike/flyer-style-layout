@@ -20,3 +20,9 @@ body {
 .shop .image {
   max-width: 100px;
 }
+
+/* グリッド */
+
+.post {
+  display: grid;
+}
