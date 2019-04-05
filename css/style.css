@@ -95,6 +95,12 @@ body {
   line-height: 2;
 }
 
+.post-head .post-bread li:not(:last-child)::after {
+  margin: 0 5px;
+  content: '>';
+  color: #000;
+}
+
 /* ヘッダー: カテゴリー */
 .post-head .post-category {
   grid-column: 2;
