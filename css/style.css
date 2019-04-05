@@ -71,6 +71,8 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
   text-align: center;
+  display: grid;
+  justify-items: center;
 }
 
 /* ヘッダー: 日付 */
