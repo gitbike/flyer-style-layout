@@ -26,4 +26,40 @@ body {
 .post {
   display: grid;
   grid-template-columns: 20px 1fr 20px 1fr 20px;
+  grid-template-rows: auto 30px auto 40px auto 30px auto;
+}
+
+/* ヘッダー */
+
+.post-head {
+  grid-column: 2 / -2;
+  grid-row: 1;
+}
+
+/* セクション01 */
+
+.section01 {
+  grid-column: 2 / -2;
+  grid-row: 3;
+}
+
+/* セクション02 */
+
+.section02 {
+  grid-column: 2;
+  grid-row: 5;
+}
+
+/* セクション03 */
+
+.section03{
+  grid-column: 4;
+  grid-row: 5;
+}
+
+/* フッター */
+
+.post-foot {
+  grid-column: 1 / -1;
+  grid-row: -2;
 }
