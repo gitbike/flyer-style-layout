@@ -39,6 +39,8 @@ body {
   display: grid;
   grid-template-columns: 75px 1fr 140px;
   grid-template-rows: 45px repeat(3, auto);
+  grid-column-gap: 24px;
+  grid-row-gap: 12px;
 }
 
 /* セクション01 */
