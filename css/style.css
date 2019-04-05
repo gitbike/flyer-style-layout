@@ -71,6 +71,8 @@ body {
 .post-head .post-date {
   grid-column: 3;
   grid-row: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14px;
 }
 
 /* ヘッダー: メニューの基本設定 */
