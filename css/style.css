@@ -73,6 +73,7 @@ body {
   text-align: center;
   display: grid;
   justify-items: center;
+  align-items: center;
 }
 
 /* ヘッダー: 日付 */
