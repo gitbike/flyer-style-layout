@@ -90,6 +90,9 @@ body {
 .post-head .post-bread {
   grid-column: 2;
   grid-row: 1;
+  align-self: end;
+  font-size: 10px;
+  line-height: 2;
 }
 
 /* ヘッダー: カテゴリー */
