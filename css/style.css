@@ -69,6 +69,20 @@ body {
   grid-row: 1;
 }
 
+/* ヘッダー: メニューの基本設定 */
+.post-head ul,
+.post-head ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.post-head a {
+  list-style: none;
+  color: #000;
+  text-decoration: none;
+}
+
 /* ヘッダー: パンくずリスト */
 .post-head .post-bread {
   grid-column: 2;
