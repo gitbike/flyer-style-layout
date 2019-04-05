@@ -136,6 +136,10 @@ body {
   grid-row: 3;
 }
 
+.post-head .post-sns ul {
+  justify-content: space-between;
+}
+
 .post-head .post-sns a {
   display: block;
   width: 40px;
