@@ -172,6 +172,17 @@ body {
   background-color: #dd4b39;
 }
 
+/* ヘッダー: 区切り線 */
+.post-head::before {
+  grid-column: 1 / -1;
+  grid-row: 1;
+  align-self: end;
+  content: '';
+  border-top: solid 4px #222;
+  height: 2px;
+  border-bottom: solid 2px #222;
+}
+
 /* セクション01 */
 
 .section01 {
