@@ -71,6 +71,9 @@ body {
 .post-head .post-date {
   grid-column: 3;
   grid-row: 1;
+  padding: 3px 0;
+  background-color: #222;
+  color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
 }
