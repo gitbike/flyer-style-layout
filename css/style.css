@@ -502,6 +502,14 @@ body {
   border-top: 6px dotted #ddd;
 }
 
+.post::after {
+  grid-column: 3;
+  grid-row: 5;
+  justify-self: center;
+  content: '';
+  border-left: 6px dotted #ddd;
+}
+
 /* フッター */
 
 .post-foot {
