@@ -259,6 +259,11 @@ body {
   grid-row-gap: 10px;
 }
 
+.section01 .spot {
+  margin-top: -8px;
+  text-shadow: 2px 2px 3px #fff;
+}
+
 .section01 .heading::after {
   grid-column: 1 / -1;
   content: '';
