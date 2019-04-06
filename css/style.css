@@ -401,6 +401,18 @@ body {
   grid-row: 2;
 }
 
+.section03 .heading::after {
+  content: '';
+  display: block;
+  border: 4px solid gold;
+}
+
+.section03 .heading::before {
+  content: '';
+  display: block;
+  border: 4px solid gold;
+}
+
 /* セクション03: 画像 */
 .section03 .figure {
   grid-column: 1;
