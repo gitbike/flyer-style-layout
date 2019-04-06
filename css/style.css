@@ -418,6 +418,7 @@ body {
 .section03 .heading::before {
   grid-column: 4;
   grid-row: 1;
+  align-self: stretch;
   margin-bottom: -10px;
   margin-top: -60px;
   z-index: 1;
