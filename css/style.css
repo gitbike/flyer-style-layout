@@ -530,4 +530,12 @@ body {
   .post {
     --side: calc( (100vw - 960px) / 2 );
   }
+
+  .post-head .post-title {
+    font-size: 40px;
+  }
+
+  .section .heading {
+    font-size: 24px;
+  }
 }
