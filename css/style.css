@@ -196,6 +196,14 @@ body {
   content: url('../image/spoon.svg');
 }
 
+/* セクション（共通） */
+.section .heading {
+  font-family: 'M Plus 1p', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
 /* セクション01 */
 
 .section01 {
