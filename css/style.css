@@ -339,6 +339,12 @@ body {
   border-left: 8px solid gold;
 }
 
+.section02 .spot {
+  margin-left: -20px;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+
 /* セクション02: 画像01 */
 .section02 .figure01 {
   grid-column: 1;
