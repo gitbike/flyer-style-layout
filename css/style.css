@@ -327,10 +327,11 @@ body {
 }
 
 .section02 .heading::after {
+  grid-column: 3;
+  grid-row: 1;
   content: '';
   display: block;
-  border-top: 4px solid gold;
-  border-bottom: 4px solid gold;
+  border-left: 8px solid gold;
 }
 
 /* セクション02: 画像01 */
