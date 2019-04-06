@@ -248,6 +248,36 @@ body {
   grid-row-gap: 15px;
 }
 
+/* セクション02: 小見出し */
+.section02 .heading {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+/* セクション02: 画像01 */
+.section02 .figure01 {
+  grid-column: 1;
+  grid-row: 2 / 4;
+}
+
+/* セクション02: 画像02 */
+.section02 .figure02 {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+/* セクション02: 文章 */
+.section02 .text {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* セクション02: ショップ情報 */
+.section02 .shop {
+  grid-column: 1 / -1;
+  grid-row: -1;
+}
+
 /* セクション03 */
 
 .section03 {
