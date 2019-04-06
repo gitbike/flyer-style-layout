@@ -346,6 +346,11 @@ body {
   z-index: 1;
 }
 
+.section02 .num {
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
 /* セクション02: 画像01 */
 .section02 .figure01 {
   grid-column: 1;
