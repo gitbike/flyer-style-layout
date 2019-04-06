@@ -429,6 +429,10 @@ body {
   transform-origin: right bottom;
 }
 
+.section03 .spot {
+  margin-left: -15px;
+}
+
 /* セクション03: 画像 */
 .section03 .figure {
   grid-column: 1;
