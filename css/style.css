@@ -263,6 +263,7 @@ body {
 .section02 .figure01 {
   grid-column: 1;
   grid-row: 2 / 4;
+  margin-bottom: 40px;
 }
 
 .section02 .figure01 .image {
