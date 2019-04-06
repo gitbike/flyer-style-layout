@@ -249,6 +249,8 @@ body {
 .section01 .heading {
   grid-column: 2;
   grid-row: 1;
+  margin-left: -70px;
+  z-index: 1;
 
   /* 小見出しのグリッド */
   display: grid;
