@@ -555,6 +555,22 @@ body {
   .post-head {
     grid-column: 1 / 3;
     grid-row: 1;
+
+    /* ヘッダーのグリッド */
+    grid-template-columns:  var(--side) 1fr 100px;
+    grid-column-gap: 12px;
+  }
+
+  .post-head .post-series {
+    display: block;
+    writing-mode: vertical-rl;
+    width: var(--side); /* Sarafi 10.x用 */
+  }
+
+  .post-head .image {
+    width: 12px;
+    height: 12px;
+    vertical-align: baseline;
   }
 
   /* セクション01 */
