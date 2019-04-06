@@ -319,6 +319,11 @@ body {
 .section02 .heading {
   grid-column: 1 / -1;
   grid-row: 1;
+
+  /* 小見出しのグリッド */
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  grid-template-rows: auto;
 }
 
 .section02 .heading::after {
