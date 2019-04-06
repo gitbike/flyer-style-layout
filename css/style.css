@@ -249,6 +249,33 @@ body {
 .section01 .heading {
   grid-column: 2;
   grid-row: 1;
+  margin-left: -70px;
+  z-index: 1;
+
+  /* 小見出しのグリッド */
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+  align-items: end;
+}
+
+.section01 .spot {
+  margin-top: -8px;
+  text-shadow: 1px 1px 3px #fff;
+  align-self: start;
+}
+
+.section01 .num {
+  margin-right: 5px;
+  margin-bottom: -5px;
+}
+
+.section01 .heading::after {
+  grid-column: 1 / -1;
+  content: '';
+  display: block;
+  border-bottom: 8px solid gold;
 }
 
 /* セクション01: 画像 */
@@ -292,6 +319,36 @@ body {
 .section02 .heading {
   grid-column: 1 / -1;
   grid-row: 1;
+
+  /* 小見出しのグリッド */
+  display: grid;
+  grid-template-columns: auto auto auto 1fr;
+  grid-template-rows: auto;
+  align-items: end;
+}
+
+.section02 .heading::after {
+  grid-column: 3;
+  grid-row: 1;
+  align-self: stretch;
+  margin-bottom: -45px;
+  margin-right: 5px;
+  z-index: 1;
+  content: '';
+  display: block;
+  border-left: 8px solid gold;
+}
+
+.section02 .spot {
+  margin-right: -10px;
+  margin-left: -20px;
+  margin-bottom: -20px;
+  z-index: 1;
+}
+
+.section02 .num {
+  margin-right: 5px;
+  margin-bottom: -5px;
 }
 
 /* セクション02: 画像01 */
@@ -342,6 +399,43 @@ body {
 .section03 .heading {
   grid-column: 1;
   grid-row: 2;
+
+  /* 小見出しのグリッド */
+  display: grid;
+  grid-template-columns: auto auto 1fr auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 10px;
+  align-items: end;
+}
+
+.section03 .heading::after {
+  grid-column: 1 / -1;
+  content: '';
+  display: block;
+  border: 4px solid gold;
+}
+
+.section03 .heading::before {
+  grid-column: 4;
+  grid-row: 1;
+  align-self: stretch;
+  margin-bottom: -10px;
+  margin-top: -60px;
+  z-index: 1;
+  content: '';
+  display: block;
+  border: 4px solid gold;
+  transform: rotate(-22deg);
+  transform-origin: right bottom;
+}
+
+.section03 .spot {
+  margin-left: -15px;
+}
+
+.section03 .num {
+  margin-right: 5px;
+  margin-bottom: -5px;
 }
 
 /* セクション03: 画像 */
