@@ -210,6 +210,30 @@ body {
   grid-row-gap: 15px;
 }
 
+/* セクション01: 小見出し */
+.section01 .heading {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+/* セクション01: 画像 */
+.section01 .figure {
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+/* セクション01: 文章 */
+.section01 .text {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+/* セクション01: ショップ情報 */
+.section01 .shop {
+  grid-column: 2;
+  grid-row: 3;
+}
+
 /* セクション02 */
 
 .section02 {
