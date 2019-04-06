@@ -324,6 +324,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto 1fr;
   grid-template-rows: auto;
+  align-items: end;
 }
 
 .section02 .heading::after {
