@@ -186,6 +186,16 @@ body {
   border-bottom: solid 2px #222;
 }
 
+/* ヘッダー: 装飾画像 */
+.post-head::after {
+  grid-column: 3;
+  grid-row: 4;
+  justify-self: center;
+  justify-content: center;
+  width: 80%;
+  content: url('../image/spoon.svg');
+}
+
 /* セクション01 */
 
 .section01 {
