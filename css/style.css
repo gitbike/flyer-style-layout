@@ -522,3 +522,19 @@ body {
   font-weight: 700;
   text-align: center;
 }
+
+/* ブラウザの横幅が1000px以上のとき */
+
+@media (min-width: 1000px) {
+  .post {
+    --side: calc( (100vw - 960px) / 2 );
+  }
+
+  .post-head .post-title {
+    font-size: 40px;
+  }
+
+  .section .heading {
+    font-size: 24px;
+  }
+}
