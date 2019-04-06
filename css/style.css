@@ -242,6 +242,7 @@ body {
 
   /* セクション02のグリッド */
   display: grid;
+  grid-template-columns: 4fr 5fr;
   
 }
 
