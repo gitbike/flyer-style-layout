@@ -201,6 +201,10 @@ body {
 .section01 {
   grid-column: 2 / -2;
   grid-row: 3;
+
+  /* セクション01のグリッド */
+  display: grid;
+
 }
 
 /* セクション02 */
