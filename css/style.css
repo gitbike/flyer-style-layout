@@ -475,6 +475,7 @@ body {
 .shop .shop-name {
   grid-column: 2;
   grid-row: 1;
+  align-self: end;
   font-size: 12px;
 }
 
