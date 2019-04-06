@@ -251,6 +251,12 @@ body {
   grid-row: 1;
 }
 
+.section01 .heading::after {
+  content: '';
+  display: block;
+  border-bottom: 8px solid gold;
+}
+
 /* セクション01: 画像 */
 .section01 .figure {
   grid-column: 1;
