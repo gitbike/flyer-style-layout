@@ -254,6 +254,7 @@ body {
   display: grid;
   grid-template-columns: auto auto 1fr;
   grid-template-rows: auto auto;
+  grid-row-gap: 10px;
 }
 
 .section01 .heading::after {
