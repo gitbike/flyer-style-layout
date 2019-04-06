@@ -340,6 +340,7 @@ body {
 }
 
 .section02 .spot {
+  margin-right: -10px;
   margin-left: -20px;
   margin-bottom: -20px;
   z-index: 1;
