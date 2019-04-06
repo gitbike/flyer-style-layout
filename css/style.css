@@ -283,6 +283,11 @@ body {
 .section03 {
   grid-column: 4;
   grid-row: 5;
+
+  /* セクション03のグリッド */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
 }
 
 /* フッター */
