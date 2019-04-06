@@ -408,12 +408,15 @@ body {
 }
 
 .section03 .heading::after {
+  grid-column: 1 / -1;
   content: '';
   display: block;
   border: 4px solid gold;
 }
 
 .section03 .heading::before {
+  grid-column: 4;
+  grid-row: 1;
   content: '';
   display: block;
   border: 4px solid gold;
