@@ -239,6 +239,10 @@ body {
 .section02 {
   grid-column: 2;
   grid-row: 5;
+
+  /* セクション02のグリッド */
+  display: grid;
+  
 }
 
 /* セクション03 */
