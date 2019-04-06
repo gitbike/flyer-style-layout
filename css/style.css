@@ -539,3 +539,13 @@ body {
     font-size: 24px;
   }
 }
+
+/* ブラウザの横幅が767px以下のとき */
+
+@media (max-width: 767px) {
+  .post {
+    --side: 20px;
+    grid-template-columns: var(--side) 1fr var(--side);
+    grid-template-rows: auto 40px auto 50px auto 50px auto 40px auto;
+  }
+}
