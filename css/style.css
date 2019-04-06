@@ -465,6 +465,7 @@ body {
   grid-template-rows: auto auto;
   grid-column-gap: 10px;
   grid-gap: 5px;
+  border: 1px solid #222;
 }
 
 .shop .image {
