@@ -291,6 +291,30 @@ body {
   grid-row-gap: 15px;
 }
 
+/* セクション03: 小見出し */
+.section03 .heading {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+/* セクション03: 画像 */
+.section03 .figure {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+/* セクション03: 文章 */
+.section03 .text {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+/*  セクション03: ショップ情報 */
+.section03 .shop {
+  grid-column: 1;
+  grid-row: -1;
+}
+
 /* フッター */
 
 .post-foot {
