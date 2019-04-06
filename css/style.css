@@ -222,6 +222,11 @@ body {
   grid-row: 1 / -1;
 }
 
+.section01 .figure .image {
+  height: 100%;
+  object-fit: cover;
+}
+
 /* セクション01: 文章 */
 .section01 .text {
   grid-column: 2;
@@ -258,6 +263,11 @@ body {
 .section02 .figure01 {
   grid-column: 1;
   grid-row: 2 / 4;
+}
+
+.section02 .figure01 .image {
+  height: 100%;
+  object-fit: cover;
 }
 
 /* セクション02: 画像02 */
