@@ -329,6 +329,8 @@ body {
 .section02 .heading::after {
   grid-column: 3;
   grid-row: 1;
+  margin-bottom: -45px;
+  z-index: 1;
   content: '';
   display: block;
   border-left: 8px solid gold;
