@@ -456,6 +456,42 @@ body {
   grid-row: -1;
 }
 
+/* ショップ情報（共通） */
+
+.shop {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: auto auto;
+  grid-column-gap: 10px;
+  grid-gap: 5px;
+  border: 1px solid #222;
+}
+
+.shop .image {
+  grid-column: 1;
+  grid-row: 1 / -1;
+}
+
+.shop .shop-name {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  font-size: 12px;
+}
+
+.shop .shop-info {
+  grid-column: 2;
+  grid-row: 2;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.shop .open {
+  padding: 0 5px;
+  border-radius: 10px;
+  background: #ddd;
+}
+
 /* フッター */
 
 .post-foot {
