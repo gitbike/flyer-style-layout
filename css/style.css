@@ -330,6 +330,7 @@ body {
 .section02 .heading::after {
   grid-column: 3;
   grid-row: 1;
+  align-self: stretch;
   margin-bottom: -45px;
   margin-right: 5px;
   z-index: 1;
