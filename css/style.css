@@ -252,7 +252,7 @@ body {
 
   /* 小見出しのグリッド */
   display: grid;
-  
+  grid-template-columns: auto auto 1fr;
 }
 
 .section01 .heading::after {
