@@ -210,6 +210,15 @@ body {
   text-justify: inter-ideograph;
 }
 
+.section .spot {
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: block;
+  width: 3.75em;
+  height: 3.75em;
+}
+
 /* セクション01 */
 
 .section01 {
