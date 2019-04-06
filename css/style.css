@@ -433,6 +433,10 @@ body {
   margin-left: -15px;
 }
 
+.section03 .num {
+  margin-bottom: -5px;
+}
+
 /* セクション03: 画像 */
 .section03 .figure {
   grid-column: 1;
