@@ -266,6 +266,10 @@ body {
   align-self: start;
 }
 
+.section01 .num {
+  margin-bottom: -5px;
+}
+
 .section01 .heading::after {
   grid-column: 1 / -1;
   content: '';
