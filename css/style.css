@@ -204,6 +204,11 @@ body {
   line-height: 1.2;
 }
 
+.section .text {
+  font-size: 14px;
+  text-align: justify;
+}
+
 /* セクション01 */
 
 .section01 {
