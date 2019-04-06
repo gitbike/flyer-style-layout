@@ -211,9 +211,11 @@ body {
 }
 
 .section .spot {
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
+  font-weight: 700;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #aaa;
   border-radius: 50%;
   box-sizing: border-box;
   display: block;
