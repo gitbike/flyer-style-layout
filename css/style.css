@@ -485,6 +485,12 @@ body {
   line-height: 1.5;
 }
 
+.shop .open {
+  padding: 0 5px;
+  border-radius: 10px;
+  background: #ddd;
+}
+
 /* フッター */
 
 .post-foot {
