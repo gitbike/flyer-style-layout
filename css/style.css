@@ -603,6 +603,21 @@ body {
     display: none;
   }
 
+  /* セクション（共通） */
+  .section .heading {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .section .spot {
+    font-size: 12px;
+    align-self: end;
+  }
+
+  .section .num {
+    font-size: 60px;
+  }
+  
   /* セクション01 */
   .section01 {
     grid-column: 2;
