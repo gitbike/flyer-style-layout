@@ -598,10 +598,20 @@ body {
     line-height: 30px;
   }
 
+  /* ヘッダー: 装飾画像 */
+  .post-head::after {
+    display: none;
+  }
+
   /* セクション01 */
   .section01 {
     grid-column: 2;
     grid-row: 3;
+
+    /* セクション01のグリッド */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-row-gap: 15px;
   }
 
   /* セクションを区切る線 */
