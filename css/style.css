@@ -635,6 +635,10 @@ body {
     grid-row: auto;
   }
 
+  .section01 .heading::after {
+    margin: 0 calc( var(--side) * -1 );
+  }
+
   /* セクションを区切る線 */
   .post::before {
     grid-column: 2;
