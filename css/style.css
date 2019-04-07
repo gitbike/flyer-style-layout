@@ -646,6 +646,11 @@ body {
     grid-row: 7;
   }
 
+  .section.section03 > * {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   /* フッター */
   .post-foot {
     grid-column: 1 / -1;
