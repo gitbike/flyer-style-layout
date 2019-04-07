@@ -651,6 +651,10 @@ body {
     grid-row: auto;
   }
 
+  .section03 .heading::before {
+    content: none;
+  }
+
   /* フッター */
   .post-foot {
     grid-column: 1 / -1;
