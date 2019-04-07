@@ -561,16 +561,35 @@ body {
     grid-column-gap: 12px;
   }
 
+  /* ヘッダー: シリーズ名 */
   .post-head .post-series {
     display: block;
     writing-mode: vertical-rl;
     width: var(--side); /* Sarafi 10.x用 */
   }
 
-  .post-head .image {
+  .post-head .post-series .image {
     width: 12px;
     height: 12px;
     vertical-align: baseline;
+  }
+
+  /* ヘッダー: タイトル */
+  .post-head .post-title {
+    grid-column: 2 / -1;
+    grid-row: 2;
+  }
+
+  /* ヘッダー: カテゴリーメニュー */
+  .post-head .post-category {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  /* ヘッダー: リード文 */
+  .post-head .post-lead {
+    grid-column: 2 / -1;
+    grid-row: 4;
   }
 
   /* セクション01 */
