@@ -592,6 +592,12 @@ body {
     grid-row: 4;
   }
 
+  /* ヘッダー: SNSメニュー */
+  .post-head .post-sns a {
+    width: 30px;
+    line-height: 30px;
+  }
+
   /* セクション01 */
   .section01 {
     grid-column: 2;
