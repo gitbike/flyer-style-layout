@@ -538,3 +538,145 @@ body {
     font-size: 24px;
   }
 }
+
+/* ブラウザの横幅が767px以下のとき */
+
+@media (max-width: 767px) {
+
+  /* グリッド */
+  .post {
+    --side: 20px;
+    grid-template-columns: var(--side) 1fr var(--side);
+    grid-template-rows: auto 40px auto 50px auto 50px auto 40px auto;
+  }
+
+  /* ヘッダー */
+  .post-head {
+    grid-column: 1 / 3;
+    grid-row: 1;
+
+    /* ヘッダーのグリッド */
+    grid-template-columns:  var(--side) 1fr 100px;
+    grid-column-gap: 12px;
+  }
+
+  /* ヘッダー: シリーズ名 */
+  .post-head .post-series {
+    display: block;
+    writing-mode: vertical-rl;
+    width: var(--side); /* Sarafi 10.x用 */
+  }
+
+  .post-head .post-series .image {
+    width: 12px;
+    height: 12px;
+    vertical-align: baseline;
+  }
+
+  /* ヘッダー: タイトル */
+  .post-head .post-title {
+    grid-column: 2 / -1;
+    grid-row: 2;
+  }
+
+  /* ヘッダー: カテゴリーメニュー */
+  .post-head .post-category {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  /* ヘッダー: リード文 */
+  .post-head .post-lead {
+    grid-column: 2 / -1;
+    grid-row: 4;
+  }
+
+  /* ヘッダー: SNSメニュー */
+  .post-head .post-sns a {
+    width: 30px;
+    line-height: 30px;
+  }
+
+  /* ヘッダー: 装飾画像 */
+  .post-head::after {
+    display: none;
+  }
+
+  /* セクション（共通） */
+  .section .heading {
+    margin: 0;
+    font-size: 20px;
+  }
+
+  .section .spot {
+    margin: 0 0 0 calc( (var(--side) + 5px) * -1 );
+    font-size: 12px;
+    align-self: end;
+  }
+
+  .section .num {
+    font-size: 60px;
+  }
+  
+  /* セクション01 */
+  .section01 {
+    grid-column: 2;
+    grid-row: 3;
+
+    /* セクション01のグリッド */
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, auto);
+    grid-row-gap: 15px;
+  }
+
+  .section.section01 > * {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .section01 .heading::after {
+    margin: 0 calc( var(--side) * -1 );
+  }
+
+  /* セクションを区切る線 */
+  .post::before {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  
+  /* セクション02 */
+  .section02 {
+    grid-column: 2;
+    grid-row: 5;
+  }
+
+  /* セクションを区切る線 */
+  .post::after {
+    grid-column: 2;
+    grid-row: 6;
+    justify-self: stretch;
+    align-self: center;
+    border-top: 6px dotted #ddd;
+  }
+
+  /* セクション03 */
+  .section03 {
+    grid-column: 2;
+    grid-row: 7;
+  }
+
+  .section.section03 > * {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .section03 .heading::before {
+    content: none;
+  }
+
+  /* フッター */
+  .post-foot {
+    grid-column: 1 / -1;
+    grid-row: 9
+  }
+}
