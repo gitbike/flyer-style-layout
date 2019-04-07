@@ -614,6 +614,11 @@ body {
     grid-row-gap: 15px;
   }
 
+  .section01 > * {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
   /* セクションを区切る線 */
   .post::before {
     grid-column: 2;
